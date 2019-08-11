@@ -1,4 +1,5 @@
 import React from 'react';
+import './quote.css';
 
 class Quote extends React.Component {
     constructor(props){
@@ -10,9 +11,9 @@ class Quote extends React.Component {
 
     render () {
         return(
-            <div>
-                <h3>inspirtaional quote</h3>
-                <button>Next Quote</button>
+            <div className='quote-container'>
+                <h3 className='quote'>inspirtaional quote</h3>
+                <button class='btn'>Next Quote</button>
             </div>
         )
     }

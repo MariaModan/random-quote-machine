@@ -1,0 +1,27 @@
+:root{
+    --main-color: #b709c9;
+}
+
+.App {
+    margin: 0;
+    background: var(--main-color);
+    width: 100vw;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    text-align: center;
+}
+
+header {
+    margin-top:20vh
+}
+
+header > h1 {
+    font-size: 2.5rem;
+}
+
+header > p {
+    font-size: 1.5rem; 
+}

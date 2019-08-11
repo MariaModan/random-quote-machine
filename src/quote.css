@@ -1,0 +1,24 @@
+.quote-container {
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 50vw;
+    background: #fff;
+    color: var(--main-color);
+    margin-top: 2rem;
+
+}
+
+.btn {
+    border: 3px solid var(--main-color);
+    border-radius: 5px;
+    padding: 1rem 1.2rem;
+    font-size: 1rem;
+    background: #fff;
+    color: var(--main-color);
+
+}
+
+.quote {
+    font-size: 1.5rem;
+}
